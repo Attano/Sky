@@ -17,23 +17,24 @@ Dead Center:
 
 > **Map 1: Hotel**
 
-> - You must now call the elevator, which will trigger horde. (Duration: 40 sec / Holdout Bonus: 20 pts)
-> - An SMG spawn has been placed near the elevator, to help you battle the horde and SI.
-> - Minor event before the Saferoom, will not trigger horde.
+- You must now call the elevator, which will trigger horde. (Duration: 40 sec / Holdout Bonus: 20 pts)
+- An SMG spawn has been placed near the elevator, to help you battle the horde and SI.
+- Minor event before the Saferoom, will not trigger horde.
+- - Map may contain random weather, small rains.
 
 > **Map 2: Streets**
 
-> - A few minor "LoS-Blockers" added to the blocked Bridge fences.
-> - The bushes and trees below the bridge have grown closer, forcing Survivors to walk around.
-> - Added an Event near the bridge; Explosion + Flying Cars, triggering Horde (Duration: 45 sec / Holdout Bonus: 40 pts)
+- A few minor "LoS-Blockers" added to the blocked Bridge fences.
+- The bushes and trees below the bridge have grown closer, forcing Survivors to walk around.
+- Added an Event near the bridge; Explosion + Flying Cars, triggering Horde (Duration: 45 sec / Holdout Bonus: 40 pts)
 
 > **Map 3: Mall**
 
-> - Standard Promod Changes
+- Standard Promod Changes
 
 > **Map 4: Atrium**
 
-> - Standard Promod Changes
+- Standard Promod Changes
 
 ----------
 
