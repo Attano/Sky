@@ -34,7 +34,7 @@
 * - Added support for C12m2_traintunnel train lever/roll event subtleties
 * 
 * Version 1.6
-* - Added static tank spawn at 21% on ñ12m4_barn
+* - Added static tank spawn at 21% on Ã±12m4_barn
 * - Added support for silent convar changes(any flags)
 * 
 * Version 1.5
@@ -107,7 +107,7 @@ public Plugin:myinfo =
 	author = "Visor, JaneDoe",
 	description = "Everything Stripper can't do",
 	version = "2.0e",
-	url = "http://shantisbitches.ru/confogl-sky/"
+	url = "https://github.com/Attano"
 }
 
 public OnPluginStart()
