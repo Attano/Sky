@@ -32,7 +32,27 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-###[ Map Changes: ]
+Config Specifics:
+-------------
+> **Base:**
+
+- Sky based on Promod v.4.2.2 global chages you can see here [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
+
+
+> **Survivors:**
+
+- Players will see how much damage they've dealt to the infected that grabs them.
+- Pills are set to 4 on Saferoom Leave and 4-5 Spawns on the Map.
+- The Green Boxes at Scavenge events give extra items and are not counted towards the Pill Spawn Limit
+- Green Boxes also have a chance to spawn a Temp Health Medkit (+80 Temp Health)
+
+
+> **Infected:**
+
+- Quad Caps are possible and are in a logical fixed order as they should be.
+- Jockey can also deal damage by pouncing from great heights (Shows as Hunter Pounces, max: 10 dmg)
+- When taking damage from a melee, the Tank's screen turns red so that it knows it's receiving melee damage.
+- Tanks are immune to fire.
 
 
 Dead Center:
@@ -308,29 +328,3 @@ The default event has been modified. The forklift now depends on a fuel truck, w
 > **Map 5: Houseboat**
 
 - Standard Promod Changes
-
-
-----------
-
-
-Config Specifics:
--------------
-> **Promod**
-
-- Sky based on Promod v.4.2.2 global chages you can see here [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
-
-
-> **Survivors:**
-
-- Players will see how much damage they've dealt to the infected that grabs them.
-- Pills are set to 4 on Saferoom Leave and 4-5 Spawns on the Map.
-- The Green Boxes at Scavenge events give extra items and are not counted towards the Pill Spawn Limit
-- Green Boxes also have a chance to spawn a Temp Health Medkit (+80 Temp Health)
-
-
-> **Infected:**
-
-- Quad Caps are possible and are in a logical fixed order as they should be.
-- Jockey can also deal damage by pouncing from great heights (Shows as Hunter Pounces, max: 10 dmg)
-- When taking damage from a melee, the Tank's screen turns red so that it knows it's receiving melee damage.
-- Tanks are immune to fire.
