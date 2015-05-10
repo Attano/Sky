@@ -34,7 +34,7 @@
 * - Added support for C12m2_traintunnel train lever/roll event subtleties
 * 
 * Version 1.6
-* - Added static tank spawn at 21% on ñ12m4_barn
+* - Added static tank spawn at 21% on C12m4_barn
 * - Added support for silent convar changes(any flags)
 * 
 * Version 1.5
