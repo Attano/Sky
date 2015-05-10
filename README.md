@@ -7,6 +7,19 @@ TEXT
 ----------
 
 
+###[ Info ]
+**Current version:**      2.6  
+**Sky Developer:**      JaneDoe, Electrik, Visor         
+**Ideas:**                JaneDoe                
+**Sky Plugins:**           Visor, Vintik, JaneDoe                 
+**Sky Stripper:**         JaneDoe, Electrik                         
+**Base plugins**         CanadaRox, ProdigySim, Tabun, Vintik, Stabby, Blade, CircleSquared, Jacob, Grego, purpletreefactory, epilimic, Arti, Raecher, Xan, Griffin, SilverShot, Sir         
+**ProMod Stripper:**             Tabun, NF, EsToOpi, Jacob, Blade, Stabby, CircleSquared              
+**Special Thanks:**             b9ka, semi, An†ares, iCake, s0b, Sir, nikeOn and etc.         
+
+###[ Map Changes: ]
+
+
 Dead Center:
 -------------
 
@@ -287,6 +300,9 @@ The default event has been modified. The forklift now depends on a fuel truck, w
 
 Config Specifics:
 -------------
+> **Promod**
+
+- Sky based on Promod v.4.2.2 global chages you can see here [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
 
 
 > **Survivors:**
