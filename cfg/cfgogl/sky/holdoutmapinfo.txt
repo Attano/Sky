@@ -1,0 +1,422 @@
+"HoldoutEvents"
+// originally by Tabbernaut. Optimized for Sky.cfg by JaneDoe
+
+{
+	// sky_elevator_event
+	"c1m1_hotel"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"20"
+		"time"		"40"
+
+		"t_start"	"sky_elevator_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+	}
+	
+	// sky_f18_event
+	"c1m2_streets"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"45"
+
+		"t_start"	"sky_exp_relay_cars"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_air_crush_event
+	"c2m1_highway"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"20"
+		"time"		"50"
+
+		"t_start"	"sky_air_horde_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_burn_barricade_event
+	"c2m2_fairgrounds"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"70"
+
+		"t_start"	"sky_relay_barricade"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// gate opening wait time
+	"c2m4_barns"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"38"
+
+		"t_start"	"minifinale_gates_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+
+		"t_end"		"relay_minifinale_gates_open"
+		"t_e_class"	"logic_relay"
+		"t_e_hook"	"OnTrigger"
+	}
+
+	// swamp fever 1 ferry
+	"c3m1_plankcountry"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"80"
+		"time"		"80"
+
+		"t_start"	"ferry_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+
+		"t_end"		"ferry_tram_arrive_relay"
+		"t_e_class"	"logic_relay"
+		"t_e_hook"	"OnTrigger"
+	}
+	
+	// sky_m119howitzer_event
+	"c3m2_swamp"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"59"
+
+		"t_start"	"sky_pushka_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+	}
+	
+	// sky_detonator_event
+	"c3m3_shantytown"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"60"
+
+		"t_start"	"sky_bridge_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_exp_house_event
+	"c4m1_milltown_a"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"50"
+
+		"t_start"	"sky_exp_house"
+		"t_s_class"	"trigger_once"
+		"t_s_hook"	"OnTrigger"
+	}
+
+	// hard rain elevator wait
+	"c4m2_sugarmill_a"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"50"
+
+		"t_start"	"button_callelevator"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+
+		"t_end"		"elevator"
+		"t_e_class"	"func_elevator"
+		"t_e_hook"	"OnReachedTop"
+	}
+	
+	// sky_tanker_truck_event
+	"c4m3_sugarmill_b"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"45"
+
+		"t_start"	"sky_relay_start_explosion"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_alarm_coffee_bar_event
+	"c5m1_waterfront"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"38"
+
+		"t_start"	"sky_alarm_door_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+		
+		"t_end"		""
+		"t_e_hamid"	"1295520"
+		"t_e_class"	"prop_door_rotating_checkpoint"
+		"t_e_hook"	"OnClose"
+	}
+	
+	// sky_exp_wastes_event
+	"c5m3_cemetery"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"60"
+
+		"t_start"	"sky_breakable"
+		"t_s_class"	"func_breakable"
+		"t_s_hook"	"OnBreak"
+	}
+	
+	// wait for parade float
+	"c5m4_quarter"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"48"
+
+		"t_start"	"tractor_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+	}
+
+	// sky_lighting_strike_event
+	"c8m1_apartment"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"55"
+
+		"t_start"	"sky_lighting_strike_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+		
+		"t_end"		"checkpoint_entrance"
+		"t_e_hamid"	"615299"
+		"t_e_class"	"prop_door_rotating_checkpoint"
+		"t_e_hook"	"OnClose"
+	}
+	
+	// sky_blue_truck_event
+	"c8m2_subway"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"80"
+		"time"		"62"
+
+		"t_start"	"sky_truck_explode_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+		
+		"t_end"		"checkpoint_entrance"
+		"t_e_hamid"	"5675178"
+		"t_e_class"	"prop_door_rotating_checkpoint"
+		"t_e_hook"	"OnClose"
+	}
+
+	// sky_gas_station_event
+	"c8m3_sewers"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"52"
+
+		"t_start"	"sky_phonepole_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// elevator boringness
+	"c8m4_interior"
+	{
+		"holdout"	"0"
+		"pointabsolute"	"60"
+		"time"		"55"
+		
+		"t_start"	""
+		"t_s_hamid"	"1199249"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+
+		"t_end"		""
+		"t_e_hamid"	"4999344"
+		"t_e_class"	"func_door"
+		"t_e_hook"	"OnOpen"
+	}
+
+	// sky_falling_tree_event
+	"c10m1_caves"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"55"
+
+		"t_start"	"sky_caralarm_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// floodgates closing (edit for sky.cfg)
+	"c10m2_drainage"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"35"
+
+		"t_start"	"sky_button_02"
+		"t_s_class"	"func_button_timed"
+		"t_s_hook"	"OnTimeUp"
+
+		"t_end"		"relay_platform_01"
+		"t_e_class"	"logic_relay"
+		"t_e_hook"	"OnTrigger"
+	}
+
+	// sky_cemetery_gate_event
+	"c10m3_ranchhouse"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"100"
+		"time"		"115"
+
+		"t_start"	"sky_oxygentank_path_relay_a"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+
+		"t_end"		"sky_oxygentank_path_relay_b"
+		"t_e_class"	"logic_relay"
+		"t_e_hook"	"OnTrigger"
+	}
+
+	// sky_fuel_truck_event
+	"c10m4_mainstreet"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"40"
+
+		"t_start"	"sky_fuel_truck_lever_relay_a"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_extinguishing_system_event
+	"c11m1_greenhouse"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"50"
+
+		"t_start"	"sky_firetrap_start_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+
+		"t_end"		"sky_firetrap_stop_relay"
+		"t_e_class"	"logic_relay"
+		"t_e_hook"	"OnTrigger"
+	}
+	
+	// crane wait
+	"c11m2_offices"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"60"
+		"time"		"55"
+
+		"t_start"	"crane button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+	}
+
+	// sky_air_crash_plane
+	"c11m3_garage"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"45"
+
+		"t_start"	"sky_air_crash_plane_trigger"
+		"t_s_class"	"trigger_multiple"
+		"t_s_hook"	"OnTrigger"
+	}
+
+	// sky_exp_bus_event
+	"C12m1_hilltop"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"20"
+		"time"		"50"
+
+		"t_start"	"sky_exp_bus_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+	}
+	
+	// sky_alarm_cars_event
+	"C12m2_traintunnel"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"50"
+
+		"t_start"	"sky_cars_alarm_relay"
+		"t_s_class"	"logic_relay"
+		"t_s_hook"	"OnTrigger"
+		
+//		"t_end"		"sky_cars_alarm_counter"
+//		"t_e_class"	"math_counter"
+//		"t_e_hook"	"OnHitMax"
+	}
+	
+	// sky_radio_event
+	"C12m3_bridge"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"31"
+
+		"t_start"	"sky_radio_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+		
+		"t_end"		""
+		"t_e_hamid"	"1437033"
+		"t_e_class"	"prop_door_rotating_checkpoint"
+		"t_e_hook"	"OnClose"
+	}
+	
+	// wait for dark parade float
+	"c5m4_darkquarter"
+	{
+		"holdout"	"1"
+		"pointabsolute"	"40"
+		"time"		"48"
+
+		"t_start"	"tractor_button"
+		"t_s_class"	"func_button"
+		"t_s_hook"	"OnPressed"
+	}
+	
+	
+	// "l4d_ihm02_manor" <= wait for chopper to crash
+	// "l4d_ihm03_underground" <= wait for gates to open?
+	// "l4d_ihm04_lumberyard" <= wait for house to collapse
+
+	// "cwm3_drain" <= wait for floodgates
+
+	// "l4d2_stadium2_riverwalk" <= wait for boat
+	// "l4d2_stadium3_city1" <= ?
+	// "l4d2_stadium4_city2" <= ?
+
+	// back to school
+	// the bloody moors
+	// blood tracks?
+	// ...
+}
