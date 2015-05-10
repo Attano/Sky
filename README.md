@@ -1,7 +1,3 @@
-# Sky
-
-Official Confogl Sky repo
-
 What is Sky ?
 ===================
 
