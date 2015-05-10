@@ -9,6 +9,9 @@ new Handle:g_hEnabled;
 new Handle:g_hBlindAmount;
 new Handle:g_hPounceScale;
 new Handle:g_hPounceCap;
+new Handle:g_hPounceMinShow;
+new Handle:g_hPounceDisplay;
+new Handle:g_hPounceDisplayMax;
 
 new Float:startPosition[MAXPLAYERS+1][3];
 new Float:endPosition[MAXPLAYERS+1][3];
@@ -29,6 +32,9 @@ public OnPluginStart()
     g_hBlindAmount = CreateConVar( "l4d2_JockeyPounce_blind", "150", "How much the jockey should blind the player (0: non, 255:completely)", FCVAR_PLUGIN );
     g_hPounceScale = CreateConVar( "l4d2_JockeyPounce_scale", "1.0", "Scale how much damage the pounce does (e.g. 0.5 will half the default damage, 5 will make it 5 times more powerfull)", FCVAR_PLUGIN );
     g_hPounceCap = CreateConVar( "l4d2_JockeyPounce_cap", "25", "Cap of the maximum damage a pounce can do", FCVAR_PLUGIN );
+    g_hPounceMinShow = CreateConVar( "l4d2_JockeyPounce_minshow", "1", "Minimum damage a pounce should do to show the pounce message", FCVAR_PLUGIN );
+    g_hPounceDisplay = CreateConVar( "l4d2_JockeyPounce_display", "0", "How message should be shown, 0 - Disabled, 1 - Chat message, 2 - Hint Message", FCVAR_PLUGIN );
+    g_hPounceDisplayMax = CreateConVar( "l4d2_JockeyPounce_display_max", "0", "Show the damagecap in the display message", FCVAR_PLUGIN );
 
     HookEvent( "jockey_ride", Event_JockeyRide );
     HookEvent( "jockey_ride_end", Event_JockeyRideEnd );
@@ -101,6 +107,22 @@ stock DistanceJumped( client, victim )
 	damage = RoundFloat( ( ( ( damage * damage )*0.8 ) + 1 ) * GetConVarFloat( g_hPounceScale ) );
 	
 	if( damage > GetConVarInt(g_hPounceCap) ) damage = GetConVarInt(g_hPounceCap);
+	
+	if( damage >= GetConVarInt(g_hPounceMinShow) )
+	{
+		decl String:max[10];
+		if( GetConVarBool( g_hPounceDisplayMax ) )
+		{
+			Format( max, 10, " Max %d", GetConVarInt(g_hPounceCap) );
+		} else {
+			Format( max, 10, "" );
+		}
+		if( !IsFakeClient( client ) )
+		{
+			if( GetConVarInt( g_hPounceDisplay ) == 1 ) PrintToChatAll( "\x03%N \x03>\x04jockey\x03<\x01 pounced \x03%N\x01 for [\x04%d\x01] damage%s", client, victim, damage, max );	
+			if( GetConVarInt( g_hPounceDisplay ) == 2 ) PrintHintTextToAll( "%N jockey pounced %N for %d damage%s", client, victim, damage, max );	
+		}
+	}
 	
     // timer idea by dirtyminuth, damage dealing by pimpinjuice http://forums.alliedmods.net/showthread.php?t=111684
     // added some L4D2 specific checks
