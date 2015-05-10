@@ -322,7 +322,7 @@ Map may contain random weather, small rains and storm.
 
 > **Map 4: Ranchhouse**
 
-The default event has been modified. The forklift now depends on a fuel truck, which(obviously) must be filled. This event is of holdout type (Duration: 40 sec/ Holdout Bonus: 40 pts)
+- The default event has been modified. The forklift now depends on a fuel truck, which(obviously) must be filled. This event is of holdout type (Duration: 40 sec/ Holdout Bonus: 40 pts)
 
 
 > **Map 5: Houseboat**
