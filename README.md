@@ -31,7 +31,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ###[ Installation ]
-- 1. Install latest ProMod: [[ProMod 4.2.2](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
+- 1. Install latest ProMod: [[ProMod 4.2.2](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)]
+[[Confogl Linux Guide](http://www.l4dnation.com/confogl-and-other-configs/how-to-install-promodconfogl-%28linux-guide%29/)]
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)] 
 - 3. Install Sky: [[Sky 2.6](https://github.com/Attano/Sky/archive/master.zip)] 
 
