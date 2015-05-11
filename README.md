@@ -1,8 +1,7 @@
 What is Sky ?
 ===================
 
-
-TEXT
+Sky is a competitive configuration for Left 4 Dead 2.
 
 ----------
 
@@ -31,12 +30,17 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+###[ Installation ]
+- 1. Install latest ProMod: [[>ProMod 4.2.2<](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
+- 2. Setup Stripper Source: [[>Stripper 1.2.2<](http://www.bailopan.net/stripper/snapshots/1.2/)] 
+- 3. Install Sky: [[>Sky 2.6<](https://github.com/Attano/Sky/archive/master.zip)] 
 
-Config Specifics:
+
+###[ Config Specifics ]
 -------------
 > **Base:**
 
-- Sky based on Promod v.4.2.2 global chages you can see here [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
+- Sky based on Promod v.4.2.2 global chages you can see here: [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
 
 
 > **Survivors:**
