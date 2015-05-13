@@ -71,7 +71,7 @@ Dead Center:
 - You must now call the elevator, which will trigger horde. (Duration: 40 sec / Holdout Bonus: 20 pts)
 - An SMG spawn has been placed near the elevator, to help you battle the horde and SI.
 - Minor event before the Saferoom, will not trigger horde.
-- - Map may contain random weather, small rains.
+- Map may contain random weather, small rains.
 
 > **Map 2: Streets**
 
@@ -129,7 +129,6 @@ Dark Carnival:
 
 - Standard Promod Changes.
 
-
 ----------
 
 
@@ -186,8 +185,7 @@ Hard Rain:
 
 > **Map 4: Milltown B**
 
-- Added an Event after the Survivors leave the saferoom, Tank will jump out of a burning Airplane and will be immune to chip for 4 Seconds
-- Rest of the Map is done in Promod style
+- Added an Event after the Survivors leave the saferoom, Tank will jump out of a burning Airplane and will be immune to chip for 4 Seconds. Tank spawn will be static at 21%.
 
 
 > **Map 5: Milltown Escape**
@@ -285,7 +283,7 @@ Dead Air:
 > **Map 3: Garage**
 
 - New panic-event at 70% is added, infected plane passengers getting through the aircraft door, activating the event. (Duration: 45 sec/ Holdout Bonus: 40 pts)
-Map may contain random weather, small rains and storm.
+- Map may contain random weather, small rains and storm.
 
 
 > **Map 4: Terminal**
@@ -312,13 +310,14 @@ Death Toll:
 
 > **Map 2: Drainage**
 
-- The default event has been modified to incorporate Scavenge elements. The Survivors must collect 6 canisters in order to fuel the generator which is powering the bridge. Map may contain random weather, small rains.
+- The default event has been modified to incorporate Scavenge elements. The Survivors must collect 6 canisters in order to fuel the generator which is powering the bridge. 
+- Map may contain random weather, small rains.
 
 
 > **Map 3: Ranchhouse**
 
-- The default event has been removed. A new holdout event (Duration: 115 sec/ Holdout Bonus: 100 pts) has been added at ~80%. The Survivors must take out the cemetery gates with the use of oxygen tanks. This event is endless and must be rushed once the path is clear.
-Map may contain random weather, small rains and storm.
+- The default event has been removed. A new holdout event (Duration: 115 sec/ Holdout Bonus: 100 pts) has been added at ~80%. The Survivors must take out the cemetery gates with the use of oxygen tanks. This event is endless and must be rushed once the path is clear. 
+- Map may contain random weather, small rains and storm.
 
 
 > **Map 4: Ranchhouse**
@@ -353,14 +352,12 @@ Blood Harvest:
 
 > **Map 3: Bridge**
 
-- Event modified; The Survivors will need to fill up the Generator with 6 Cans (12 Pts each) and then alert the Military through the Radio which will take down the bridge in 20 Seconds.
-> Event Horde is Endless until a Survivor makes it to the saferoom.
+- Event modified; The Survivors will need to fill up the Generator with 6 Cans (12 Pts each) and then alert the Military through the Radio which will take down the bridge in 20 Seconds. Event Horde is Endless until a Survivor makes it to the saferoom.
 
 
 > **Map 4: Barn**
 
-- Tank spawn will be static at 21%
-- The Tank spawns in one of the Trucks and has to hit the explosive barrels inside, this will send the Tank flying to the Survivors location, Everyone will see the cut-scene from the Tank's Point of View!
+- Tank spawn will be static at 21%. The Tank spawns in one of the Trucks and has to hit the explosive barrels inside, this will send the Tank flying to the Survivors location, Everyone will see the cut-scene from the Tank's Point of View!
 
 
 > **Map 5: Cornfield**
