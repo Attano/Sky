@@ -9,14 +9,14 @@ Thus rendering the game more interesting and diverse.
 
 
 ###[ Info ]
-**Current version:**      2.6  
+**Current version:**      2.7  
 **Developers:**      JaneDoe, Electrik, Visor         
 **Ideas:**                JaneDoe                
 **Plugins:**           Visor, Vintik, JaneDoe                 
 **Sky Stripper:**         JaneDoe, Electrik                         
 **Base plugins**         CanadaRox, ProdigySim, Tabun, Vintik, Stabby, Blade, CircleSquared, Jacob, Grego, purpletreefactory, epilimic, Arti, Raecher, Xan, Griffin, SilverShot, Sir         
 **ProMod Stripper:**             Tabun, NF, EsToOpi, Jacob, Blade, Stabby, CircleSquared              
-**Special Thanks:**             b9ka, semi, An†ares, iCake, s0b, Sir, nikeOn and etc.         
+**Special Thanks:**             b9ka, semi, An†ares, iCake, s0b, Sir, nikeOn, Princess Twilight and etc.         
 
 
 ###[ License ]
@@ -33,18 +33,17 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ###[ Installation ]
-- 1. Install latest ProMod: [[ProMod 4.2.2](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)]
+- 1. Install latest ProMod: [[ProMod 4.3](http://www.l4dnation.com/community-news/pro-mod-4-3/)]
 [[Confogl Linux Guide](http://www.l4dnation.com/confogl-and-other-configs/how-to-install-promodconfogl-%28linux-guide%29/)]
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)] 
-- 3. Install Sky: [[Sky 2.6](https://github.com/Attano/Sky/archive/master.zip)] 
+- 3. Install Sky: [[Sky 2.7](https://github.com/Attano/Sky/archive/master.zip)] 
 
 
 ###[ Config Specifics ]
 -------------
 > **Base:**
 
-- Sky based on Promod v.4.2.2 global chages you can see here: [[l4dnation.com/promod](http://www.l4dnation.com/community-news/pro-mod-4-2-2/)] 
-
+- Sky based on ProMod global chages you can see here: [[l4dnation.com/promod](http://www.l4dnation.com/index.php)] 
 
 > **Survivors:**
 
@@ -52,14 +51,15 @@ You should have received a copy of the GNU General Public License along with thi
 - Pills are set to 4 on Saferoom Leave and 4-5 Spawns on the Map.
 - The Green Boxes at Scavenge events give extra items and are not counted towards the Pill Spawn Limit
 - Green Boxes also have a chance to spawn a Temp Health Medkit (+80 Temp Health)
-
+- Physics props (cars, dumpsters etc) which are used for visual design of events (explosion, destruction, fall) do not incapacitate survivors, but do 30 dmg as a penalty for negligence and they are unavailable for Tank to hit.
+- Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
+- New tips on new and modified events are added for both teams, we recommend you to turn game instructor on.
 
 > **Infected:**
 
 - Quad Caps are possible and are in a logical fixed order as they should be.
 - Jockey can also deal damage by pouncing from great heights (Shows as Hunter Pounces, max: 10 dmg)
 - When taking damage from a melee, the Tank's screen turns red so that it knows it's receiving melee damage.
-- Tanks are immune to fire.
 
 
 Dead Center:
@@ -81,11 +81,11 @@ Dead Center:
 
 > **Map 3: Mall**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 > **Map 4: Atrium**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 ----------
 
@@ -127,7 +127,7 @@ Dark Carnival:
 
 > **Map 5: Concert**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 
 ----------
@@ -156,7 +156,7 @@ Swamp Fever:
 
 > **Map 4: Plantation**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 
 ----------
@@ -192,7 +192,7 @@ Hard Rain:
 
 > **Map 5: Milltown Escape**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 
 ----------
@@ -215,8 +215,7 @@ The Parish:
 
 > **Map 3: Cemetery**
 
-- An event has been added 16% into the map, Survivors have to shoot toxic waste barrels to clear the way, this Triggers Horde
-(Duration: 50 sec/ Holdout Bonus: 40 pts)
+- An event has been added 16% into the map, Survivors have to shoot toxic waste barrels to clear the way, this Triggers Horde (Duration: 50 sec/ Holdout Bonus: 40 pts)
 - At the Car Park, an Airstrike will hit the bridge above, causing Cars to drop down, no Horde is triggered.
 - The route through the Cemetery is modified to be longer.
 
@@ -228,7 +227,7 @@ The Parish:
 
 > **Map 5: Bridge**
 
-- Standard Promod Changes
+- Standard Promod Changes.
 
 
 ----------
@@ -264,7 +263,72 @@ No Mercy:
 
 > **Map 5: Rooftop**
 
-- Standard Promod Changes
+- Standard Promod Changes.
+
+----------
+
+Dead Air:
+-------------
+
+
+> **Map 1: Greenhouse**
+
+- New panic-event at 85% is added, survivors have to douse the fire in one of the rooms with the help of fire extinguishing system. It activates the horde. (Duration: 50 sec/ Holdout Bonus: 40 pts)
+- Map may contain random weather, small rains.
+
+> **Map 2: Offices**
+
+- New panic-event at 85% is added, survivors have to activate the motor winch to wrest barricaded doors. It activates the horde. (Duration: 40 sec)
+- If Tank spawns at 90% the player has to pass through the alley (backdoor, behind the office building) to get inside the office building.
+- Map may contain random weather, small rains.
+
+> **Map 3: Garage**
+
+- New panic-event at 70% is added, infected plane passengers getting through the aircraft door, activating the event. (Duration: 45 sec/ Holdout Bonus: 40 pts)
+Map may contain random weather, small rains and storm.
+
+
+> **Map 4: Terminal**
+
+- Panic-event is modified to be more like scavenge mode, survivors have to gather 6 cans and fill the van. (12 points for a can)
+
+
+> **Map 5: Runway**
+
+- Standard Promod Changes.
+
+
+----------
+
+
+Death Toll:
+-------------
+
+
+> **Map 1: Caves**
+
+- At the start of the map, the Survivors must clear the path by cutting down a tree. After the tree has collapsed, a holdout event will commence (Duration: 55 sec/ Holdout Bonus: 40 pts)
+
+
+> **Map 2: Drainage**
+
+- The default event has been modified to incorporate Scavenge elements. The Survivors must collect 6 canisters in order to fuel the generator which is powering the bridge. Map may contain random weather, small rains.
+
+
+> **Map 3: Ranchhouse**
+
+- The default event has been removed. A new holdout event (Duration: 115 sec/ Holdout Bonus: 100 pts) has been added at ~80%. The Survivors must take out the cemetery gates with the use of oxygen tanks. This event is endless and must be rushed once the path is clear.
+Map may contain random weather, small rains and storm.
+
+
+> **Map 4: Ranchhouse**
+
+- Panic-event is modified, before rushing survivors have to fill the forklift with the help of gasoline tanker. First part event is of holdout type (Duration: 40 sec/ Holdout Bonus: 40 pts)
+
+
+> **Map 5: Houseboat**
+
+- Standard Promod Changes.
 
 
 ----------
@@ -301,37 +365,4 @@ Blood Harvest:
 
 > **Map 5: Cornfield**
 
-- Standard Promod Changes
- 
-
-----------
-
-
-Death Toll:
--------------
-
-
-> **Map 1: Caves**
-
-- At the start of the map, the Survivors must clear the path by cutting down a tree. After the tree has collapsed, a holdout event will commence (Duration: 55 sec/ Holdout Bonus: 40 pts)
-
-
-> **Map 2: Drainage**
-
-- The default event has been modified to incorporate Scavenge elements. The Survivors must collect 6 canisters in order to fuel the generator which is powering the bridge. Map may contain random weather, small rains.
-
-
-> **Map 3: Ranchhouse**
-
-- The default event has been removed. A new holdout event (Duration: 115 sec/ Holdout Bonus: 100 pts) has been added at ~80%. The Survivors must take out the cemetery gates with the use of oxygen tanks. This event is endless and must be rushed once the path is clear.
-Map may contain random weather, small rains and storm.
-
-
-> **Map 4: Ranchhouse**
-
-- The default event has been modified. The forklift now depends on a fuel truck, which(obviously) must be filled. This event is of holdout type (Duration: 40 sec/ Holdout Bonus: 40 pts)
-
-
-> **Map 5: Houseboat**
-
-- Standard Promod Changes
+- Standard Promod Changes.
