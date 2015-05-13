@@ -52,7 +52,7 @@ You should have received a copy of the GNU General Public License along with thi
 - The Green Boxes at Scavenge events give extra items and are not counted towards the Pill Spawn Limit
 - Green Boxes also have a chance to spawn a Temp Health Medkit (+80 Temp Health)
 - Physics props (cars, dumpsters etc) which are used for visual design of events (explosion, destruction, fall) do not incapacitate survivors, but do 30 dmg as a penalty for negligence and they are unavailable for Tank to hit.
-- Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
+- Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c2m4_barns, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
 - New tips on new and modified events are added for both teams, we recommend you to turn game instructor on.
 
 > **Infected:**
@@ -144,12 +144,12 @@ Swamp Fever:
 
 > **Map 2: Swamp**
 
-- Added an Event 15% Before the Saferoom Area; Fire the Military Tank to clear the barricade, Triggers Horde (Duration: 60 sec / Holdout Bonus: 40 pts)
+- Added an Event 92% Before the Saferoom Area; Fire the Military Tank to clear the barricade, Triggers Horde (Duration: 60 sec / Holdout Bonus: 40 pts)
 
 
 > **Map 3: Shanty Town**
 
-- Modified Event; Survivors will have to blow up the houses to clear the way, Triggers Event Horde (Lasts 60 Seconds)
+- Modified Event; Survivors will have to blow up the houses to clear the way, Triggers Event Horde (Duration: 60 sec / Holdout Bonus: 40 pts)
 - Map may contain random weather, small rains.
 
 
