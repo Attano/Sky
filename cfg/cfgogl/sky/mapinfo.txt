@@ -505,7 +505,7 @@
         "end_point"         "5274.120605 2715.548584 88.261955"
         "end_dist"          "314.896759"
         "witch_flow_min"    "10"
-        "witch_flow_max"    "99"
+        "witch_flow_max"    "70"
     }
     "c11m2_offices"
     {
