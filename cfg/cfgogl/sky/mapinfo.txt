@@ -73,6 +73,10 @@
         "end_dist"          "150.000000"
         "witch_flow_min"    "10"
         "witch_flow_max"    "80"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c2m3_coaster"
     {
@@ -121,6 +125,10 @@
         "tank_ban_flow_max" "60"
         "witch_flow_min"    "10"
         "witch_flow_max"    "99"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c3m2_swamp"
     {
@@ -179,6 +187,10 @@
         "tank_ban_flow_max" "100"
         "witch_flow_min"    "10"
         "witch_flow_max"    "99"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c4m3_sugarmill_b"
     {
@@ -263,6 +275,10 @@
         "tank_ban_flow_max" "100"
         "witch_flow_min"    "10"
         "witch_flow_max"    "99"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c5m5_bridge"
     {
@@ -439,6 +455,10 @@
         "tank_ban_flow_max" "16"
         "witch_flow_min"    "10"
         "witch_flow_max"    "99"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c10m3_ranchhouse"
     {
@@ -522,6 +542,10 @@
         "end_point"         "3276.041992 4504.324707 181.974670"
         "end_dist"          "343.399078"
         "max_distance"      "600"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "c11m5_runway"
     {
@@ -559,6 +583,7 @@
         "witch_flow_max"    "99"
 		"ItemLimits"
         {
+			"molotov"		"0"
             "pain_pills"    "5"
         }
     }
