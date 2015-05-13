@@ -9,6 +9,9 @@
 #include <bosspercent>
 
 /*
+* Version 2.1
+* - Removed function tank extinguishing
+
 * Version 2.0
 * - Changed canister bonus to rely on penalty_bonus instead of custom logic, for the sake of compatibility l4d2_penalty_bonus.smx
 * - Added compatibility with l4d2_boss_manager.smx/l4d_boss_percent.smx
@@ -106,7 +109,7 @@ public Plugin:myinfo =
 	name = "Confogl Sky Customization Plugin",
 	author = "Visor, JaneDoe",
 	description = "Everything Stripper can't do",
-	version = "2.0e",
+	version = "2.1",
 	url = "https://github.com/Attano"
 }
 
@@ -250,11 +253,6 @@ public OnMapStart()
 public OnPlayerHurt(Handle:event, const String:name[], bool:dontBroadcast)
 {
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
-
-	if (L4DTeam:GetClientTeam(client) == L4DTeam_Infected && L4D2ZombieClassType:L4D2_GetPlayerZombieClass(client) == L4D2ZombieClass_Tank)
-	{
-		if (GetEntityFlags(client) & FL_ONFIRE) ExtinguishEntity(client);
-	}
 
 	if (bRagdollCorpsesEnabled)
 	{
