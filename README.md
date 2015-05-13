@@ -1,7 +1,7 @@
 What is Sky ?
 ===================
 
-Sky is a competitive configuration for Left 4 Dead 2. Original l4d-l4d2 maps are modified in this config:
+Sky is a competitive configuration for Left 4 Dead 2. Original L4D/L4D2 maps are modified in this config:
 variable weather conditions across maps(such as Hard Rain), modifications of vanilla events etc.
 Thus rendering the game more interesting and diverse.
 
