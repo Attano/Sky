@@ -1,4 +1,4 @@
-Msg("Initiating Sky Scavenge Cans Cvars");
+Msg("Initiating Sky Scavenge Item Cvars");
 
 Convars.SetValue( "inferno_flame_lifetime", 2 )
 Convars.SetValue( "inferno_max_range", 150 )
