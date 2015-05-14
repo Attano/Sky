@@ -38,6 +38,14 @@ You should have received a copy of the GNU General Public License along with thi
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)] 
 - 3. Install Sky: [[Sky 2.7](https://github.com/Attano/Sky/archive/master.zip)] 
 
+###[ Changelog ]
+-------------
+> **May 14, 2015 (Sky 2.7):**
+
+- Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c2m4_barns, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
+- Scavenge gascans burn duration reduced to 2 seconds.
+- Scavenge gascans max spread reduced by 15%
+- Removed tank fire immunity.
 
 ###[ Config Specifics ]
 -------------
@@ -52,7 +60,6 @@ You should have received a copy of the GNU General Public License along with thi
 - The Green Boxes at Scavenge events give extra items and are not counted towards the Pill Spawn Limit
 - Green Boxes also have a chance to spawn a Temp Health Medkit (+80 Temp Health)
 - Physics props (cars, dumpsters etc) which are used for visual design of events (explosion, destruction, fall) do not incapacitate survivors, but do 30 dmg as a penalty for negligence and they are unavailable for Tank to hit.
-- Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c2m4_barns, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
 - New tips on new and modified events are added for both teams, we recommend you to turn game instructor on.
 
 > **Infected:**
