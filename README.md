@@ -272,24 +272,24 @@ Dead Air:
 > **Map 1: Greenhouse**
 
 - New panic-event at 85% is added, survivors have to douse the fire in one of the rooms with the help of fire extinguishing system. It activates the horde. (Duration: 50 sec/ Holdout Bonus: 40 pts)
-- Map may contain random weather, small rains.
+- Map may contain random weather, small rains and storm.
 
 > **Map 2: Offices**
 
 - New panic-event at 85% is added, survivors have to activate the motor winch to wrest barricaded doors. It activates the horde. (Duration: 40 sec)
 - If Tank spawns at 90% the player has to pass through the alley (backdoor, behind the office building) to get inside the office building.
-- Map may contain random weather, small rains.
+- Map may contain random weather, small rains and storm.
 
 > **Map 3: Garage**
 
 - New panic-event at 70% is added, infected plane passengers getting through the aircraft door, activating the event. (Duration: 45 sec/ Holdout Bonus: 40 pts)
-- Map may contain random weather, small rains and storm.
+- Map may contain random weather, storm.
 
 
 > **Map 4: Terminal**
 
 - Panic-event is modified to be more like scavenge mode, survivors have to gather 6 cans and fill the van. (12 points for a can)
-
+- Map may contain random weather, small rains and storm.
 
 > **Map 5: Runway**
 
@@ -341,7 +341,7 @@ Blood Harvest:
 
 - Added an Event to the end of the bridge, Survivors have to blow up the car to clear the path. Horde will spawn (Duration: 50 sec/ Holdout Bonus: 20 pts)
 - Added a Hittable for Tank at the end of the Map
-- Map may contain random weather, small rains and storm.
+- Map may contain random weather, small rains and severe storm.
 
 
 > **Map 2: Train Tunnel**
