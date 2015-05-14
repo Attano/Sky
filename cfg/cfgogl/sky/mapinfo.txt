@@ -100,10 +100,6 @@
         "max_distance"      "600"
         "witch_flow_min"    "50"
         "witch_flow_max"    "80"
-		"ItemLimits"
-        {
-			"molotov"		"0"
-        }
     }
     "c2m5_concert"
     {
