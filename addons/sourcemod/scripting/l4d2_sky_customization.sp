@@ -9,9 +9,6 @@
 #include <bosspercent>
 
 /*
-* Version 2.1
-* - Removed function tank extinguishing
-
 * Version 2.0
 * - Changed canister bonus to rely on penalty_bonus instead of custom logic, for the sake of compatibility l4d2_penalty_bonus.smx
 * - Added compatibility with l4d2_boss_manager.smx/l4d_boss_percent.smx
@@ -109,7 +106,7 @@ public Plugin:myinfo =
 	name = "Confogl Sky Customization Plugin",
 	author = "Visor, JaneDoe",
 	description = "Everything Stripper can't do",
-	version = "2.1",
+	version = "2.0e",
 	url = "https://github.com/Attano"
 }
 
@@ -162,7 +159,7 @@ public Action:OnServerCvar(Handle:event, const String:name[], bool:dontBroadcast
 public Action:Command_Scavenge_Bonus(client, args)
 {
 	if (bScavengeOnMap)
-		ReplyToCommand(client, "\x01<\x05ScoreMod\x01> Scavenge Bonus: \x05%d\x01", iScavengeBonus[GameRules_GetProp("m_bInSecondHalfOfRound")]);
+		ReplyToCommand(client, "\x01[\x05ScoreMod\x01] Scavenge Bonus: \x05%d\x01", iScavengeBonus[GameRules_GetProp("m_bInSecondHalfOfRound")]);
 }
 
 public Action:RoundEndEvent(Handle:event, const String:name[], bool:dontBroadcast)
@@ -171,8 +168,8 @@ public Action:RoundEndEvent(Handle:event, const String:name[], bool:dontBroadcas
 	{
 		bRoundOver = true;
 		
-		PrintToChatAll("\x01<\x05ScoreMod\x01> Round 1 Scavenge Bonus: \x05%d\x01", iScavengeBonus[0]);
-		if (GameRules_GetProp("m_bInSecondHalfOfRound")) PrintToChatAll("\x01<\x05ScoreMod\x01> Round 2 Scavenge Bonus: \x05%d\x01", iScavengeBonus[1]);
+		PrintToChatAll("\x01[\x05ScoreMod\x01] Round \x041\x01 Scavenge Bonus: \x05%d\x01", iScavengeBonus[0]);
+		if (GameRules_GetProp("m_bInSecondHalfOfRound")) PrintToChatAll("\x01[\x05ScoreMod\x01] Round \x042\x01 Scavenge Bonus: \x05%d\x01", iScavengeBonus[1]);
 	}
 }
 
@@ -253,6 +250,11 @@ public OnMapStart()
 public OnPlayerHurt(Handle:event, const String:name[], bool:dontBroadcast)
 {
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
+
+	if (L4DTeam:GetClientTeam(client) == L4DTeam_Infected && L4D2ZombieClassType:L4D2_GetPlayerZombieClass(client) == L4D2ZombieClass_Tank)
+	{
+		if (GetEntityFlags(client) & FL_ONFIRE) ExtinguishEntity(client);
+	}
 
 	if (bRagdollCorpsesEnabled)
 	{
