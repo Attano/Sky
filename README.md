@@ -42,7 +42,7 @@ You should have received a copy of the GNU General Public License along with thi
 -------------
 > **May 14, 2015 (Sky 2.7):**
 
-- Update base ProMod 4.3
+- Update base [[ProMod 4.3](http://www.l4dnation.com/community-news/pro-mod-4-3/)]
 - Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
 - Scavenge gascans burn duration reduced to 2.5 seconds.
 - Scavenge gascans max inferno range reduced by 50%
