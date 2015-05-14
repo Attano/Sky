@@ -42,10 +42,12 @@ You should have received a copy of the GNU General Public License along with thi
 -------------
 > **May 14, 2015 (Sky 2.7):**
 
+- Update base ProMod 4.3
 - Added molotovs back (Max 1 per map) (ProMod 4.3) (exception: c2m2_fairgrounds, c2m4_barns, c3m1_plankcountry, c4m2_sugarmill_a, c5m4_quarter, c10m2_drainage, c11m4_terminal, C12m3_bridge).
 - Scavenge gascans burn duration reduced to 2 seconds.
 - Scavenge gascans max spread reduced by 15%
 - Removed tank fire immunity (exception fire on custom events which are used for visual design and blocking path of survivors).
+- Updated stripper files.
 
 ###[ Config Specifics ]
 -------------
