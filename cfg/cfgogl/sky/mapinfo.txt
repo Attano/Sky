@@ -583,7 +583,6 @@
         "witch_flow_max"    "99"
 		"ItemLimits"
         {
-			"molotov"		"0"
             "pain_pills"    "5"
         }
     }
@@ -598,6 +597,10 @@
         "tank_ban_flow_max" "100"
         "witch_flow_min"    "10"
         "witch_flow_max"    "99"
+		"ItemLimits"
+        {
+			"molotov"		"0"
+        }
     }
     "C12m4_barn"
     {
@@ -631,6 +634,8 @@
         "start_extra_dist"  "437.938110"
         "end_point"         "1186.061401 -1247.817627 389.251373"
         "end_dist"          "604.894531"
+		"tank_ban_flow_min" "83"
+        "tank_ban_flow_max" "100"
     }
     "c13m2_southpinestream"
     {
@@ -647,8 +652,8 @@
         "start_extra_dist"  "321.877747"
         "end_point"         "6097.708496 -6337.365234 422.031250"
         "end_dist"          "356.709808"
-		"tank_ban_flow_min" "0"
-        "tank_ban_flow_max" "12"
+		"tank_ban_flow_min" "53"
+        "tank_ban_flow_max" "80"
     }
     "c13m4_cutthroatcreek"
     {
@@ -746,7 +751,7 @@
         "end_dist"          "245.495361"
         "tank_ban_flow_min" "1"
         "tank_ban_flow_max" "70"
-		"max_distance"      "700"
+		"max_distance"      "600"
     }
     "l4d_deathaboard01_prison"
     {
@@ -1026,6 +1031,9 @@
         "start_extra_dist"  "123.490318"
         "end_point"         "-3424.100586 1176.238281 440.031250"
         "end_dist"          "389.248535"
+		"tank_ban_flow_min" "0"
+        "tank_ban_flow_max" "65"
+		"max_distance"      "600"
     }
     "hf04_escape"
     {
@@ -1034,6 +1042,8 @@
         "start_extra_dist"  "409.378784"
         "end_point"         "1585.235596 8390.712891 -1028.968750"
         "end_dist"          "885.892273"
+		"tank_ban_flow_min" "0"
+        "tank_ban_flow_max" "40"
     }
     "ddg1_tower_v1_6"
     {
@@ -1070,6 +1080,8 @@
         "start_extra_dist"  "357.132141"
         "end_point"         "2948.021729 7602.731445 -604.782043"
         "end_dist"          "142.267410"
+		"tank_ban_flow_min" "72"
+        "tank_ban_flow_max" "74"
     }
     "l4d_dbd2dc_the_mall"
     {
@@ -1094,6 +1106,8 @@
         "start_extra_dist"  "188.167191"
         "end_point"         "-7367.650391 8434.535156 -671.968750"
         "end_dist"          "365.062012"
+		"tank_ban_flow_min" "60"
+        "tank_ban_flow_max" "80"
     }
     "l4d_dbd2dc_new_dawn"
     {
@@ -1102,8 +1116,8 @@
         "start_extra_dist"  "306.183685"
         "end_point"         "-463.786469 876.165771 -243.441345"
         "end_dist"          "1558.433960"
-        "tank_ban_flow_min" "0"
-        "tank_ban_flow_max" "70"
+        "tank_ban_flow_min" "38"
+        "tank_ban_flow_max" "100"
     }
     "uf1_boulevard"
     {
