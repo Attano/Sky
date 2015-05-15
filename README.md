@@ -9,7 +9,7 @@ Thus rendering the game more interesting and diverse.
 
 
 ###[ Info ]
-**Current version:**      2.7  
+**Current version:**      2.7.1  
 **Developers:**      JaneDoe, Electrik, Visor         
 **Ideas:**                JaneDoe                
 **Plugins:**           Visor, Vintik, JaneDoe                 
