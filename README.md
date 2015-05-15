@@ -44,7 +44,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 - Update base [[ProMod 4.3.1](http://www.l4dnation.com/community-news/pro-mod-4-3-1/)]
 - Updated stripper files [[ProMod 4.3.1](http://www.l4dnation.com/community-news/pro-mod-4-3-1/)]
-- 
+
 > **May 14, 2015 (Sky 2.7):**
 
 - Update base [[ProMod 4.3](http://www.l4dnation.com/community-news/pro-mod-4-3/)]
