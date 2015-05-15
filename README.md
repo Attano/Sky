@@ -33,13 +33,18 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ###[ Installation ]
-- 1. Install latest ProMod: [[ProMod 4.3](http://www.l4dnation.com/community-news/pro-mod-4-3/)]
+- 1. Install latest ProMod: [[ProMod 4.3.1](http://www.l4dnation.com/community-news/pro-mod-4-3-1/)]
 [[Confogl Linux Guide](http://www.l4dnation.com/confogl-and-other-configs/how-to-install-promodconfogl-%28linux-guide%29/)]
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)] 
-- 3. Install Sky: [[Sky 2.7](https://github.com/Attano/Sky/archive/master.zip)] 
+- 3. Install Sky: [[Sky 2.7.1](https://github.com/Attano/Sky/archive/master.zip)] 
 
 ###[ Changelog ]
 -------------
+> **May 15, 2015 (Sky 2.7.1):**
+
+- Update base [[ProMod 4.3.1](http://www.l4dnation.com/community-news/pro-mod-4-3-1/)]
+- Updated stripper files [[ProMod 4.3.1](http://www.l4dnation.com/community-news/pro-mod-4-3-1/)]
+- 
 > **May 14, 2015 (Sky 2.7):**
 
 - Update base [[ProMod 4.3](http://www.l4dnation.com/community-news/pro-mod-4-3/)]
@@ -94,7 +99,7 @@ Dead Center:
 
 > **Map 4: Atrium**
 
-- Standard Promod Changes.
+- Added a hittable for Tank.
 
 ----------
 
