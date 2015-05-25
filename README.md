@@ -40,7 +40,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ###[ Changelog ]
 -------------
-> **May 25, 2015 (Sky 2.7.1):**
+> **May 25, 2015 (Sky 2.7.1a):**
 
 - Small fix for static tank spawns.
 - [[Download Fix static tankspawn](http://www.mediafire.com/download/uq3bcaa47g7cfdl/sky+%28fix+static+tank+spawns%29.zip)] (if download before 25.05.2015)
